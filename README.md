@@ -8,7 +8,7 @@ A specialized collection of JSON prompt frameworks designed for AI image generat
 
 ## <a name="english"></a>English
 
-Features
+### Features
 
 3 Distinct Art Styles: Covers American Textbook (Formal/Vector), Japanese Anime (Cel-shaded/Vibrant), and American Comic (Bold Ink/Dramatic).
 
@@ -32,7 +32,7 @@ Japanese Anime
 
 Project Structure
 
-How to Use
+### How to Use
 
 Select a Style: Choose a text file from the prompts/ directory (e.g., prompts/japanese-anime.txt).
 
@@ -60,7 +60,7 @@ This project is released under the [MIT License](LICENSE).
 
 [View this document in English](#english)
 
-功能特色
+### 功能特色
 
 三種風格: 涵蓋 美式課本 (正式/向量風格)、日系動漫 (賽璐珞/鮮豔) 與 美式漫畫 (粗墨線/戲劇張力)。
 
@@ -82,7 +82,7 @@ This project is released under the [MIT License](LICENSE).
 日系動漫 (Anime)
 
 
-如何使用
+### 如何使用
 
 選擇風格: 從 prompts/ 資料夾中選擇一個文字檔（例如 prompts/japanese-anime.txt）。
 
@@ -100,4 +100,4 @@ This project is released under the [MIT License](LICENSE).
 
 授權條款
 
-本專案採用 [MIT License](LICENSE) 授權。
+### 本專案採用 [MIT License](LICENSE) 授權。
