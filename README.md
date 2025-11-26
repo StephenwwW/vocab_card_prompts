@@ -4,6 +4,7 @@
 A specialized collection of JSON prompt frameworks designed for AI image generation models to create 4-panel educational vocabulary cards.
 </div>
 
+
 [English](#english) | [中文](#中文)
 
 ## <a name="english"></a>English
@@ -53,6 +54,7 @@ This project is released under the [MIT License](LICENSE).
 ## <a name="中文"></a>中文
 
 <div align="Left"> AI生圖模型設計的JSON提示詞架構集合，用於生成高品質的「四格單字記憶卡」。 </div>
+
 
 [View this document in English](#english)
 
