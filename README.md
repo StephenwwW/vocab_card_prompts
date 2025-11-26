@@ -52,7 +52,7 @@ This project is released under the [MIT License](LICENSE).
 
 ## <a name="中文"></a>中文
 
-<div align="center"> AI生圖模型設計的JSON提示詞架構集合，用於生成高品質的「四格單字記憶卡」。 </div>
+<div align="Left"> AI生圖模型設計的JSON提示詞架構集合，用於生成高品質的「四格單字記憶卡」。 </div>
 
 [View this document in English](#english)
 
