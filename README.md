@@ -50,9 +50,9 @@ Please name this file Actor.jpg to match the default prompt settings.
 
 If you use a different filename, ensure you update the reference name within the prompt accordingly.
 
-License
+### License
 
-This project is released under the MIT License.
+This project is released under the [MIT License](LICENSE).
 
 ## <a name="中文"></a>中文
 
@@ -100,4 +100,4 @@ This project is released under the MIT License.
 
 授權條款
 
-本專案採用 MIT License 授權。
+本專案採用 [MIT License](LICENSE) 授權。
