@@ -79,7 +79,7 @@ This project is released under the [MIT License](LICENSE).
 
 美式漫畫 (Comic)
 
-日系動漫 (Anime) [日系動漫 (Anime)] (japanese-anime.txt) 
+日系動漫 (Anime) [日系動漫 (Anime)] (prompts/japanese-anime.txt) 
 
 
 ### 如何使用
