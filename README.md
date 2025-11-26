@@ -1,6 +1,6 @@
 ### Vocab_Card_Prompts
 
-<div align="center">
+<div align="Left">
 A specialized collection of JSON prompt frameworks designed for AI image generation models to create 4-panel educational vocabulary cards.
 </div>
 
