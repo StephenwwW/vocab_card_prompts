@@ -79,7 +79,7 @@ This project is released under the [MIT License](LICENSE).
 
 [美式課本 (Textbook)](prompts/american-textbook.txt) 
 
-[美式漫畫 (Comic)](prompts/american-comic v2.txt) 
+[美式漫畫 (Comic)](prompts/american-comicV2.txt)  
 
 [日系動漫 (Anime)](prompts/japanese-anime.txt) 
 
