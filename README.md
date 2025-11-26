@@ -23,11 +23,11 @@ Automated Content Analysis: The prompts instruct the LLM to act as a linguist, a
 
 Style Gallery
 
-American Textbook
+[American Textbook](prompts/american-textbook.txt) 
 
-American Comic
+[American Comic](prompts/american-comicV2.txt)  
 
-Japanese Anime
+[Japanese Anime](prompts/japanese-anime.txt) 
 
 
 Project Structure
