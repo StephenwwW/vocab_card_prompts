@@ -20,6 +20,7 @@ Structured JSON Output: Generates valid JSON objects ready for integration with 
 
 Automated Content Analysis: The prompts instruct the LLM to act as a linguist, analyzing the top 4 distinct definitions of any input word.
 
+
 Style Gallery
 
 American Textbook
@@ -30,19 +31,6 @@ Japanese Anime
 
 
 Project Structure
-
-vocab_card_prompts/
-├── README.md           # Project documentation
-├── prompts/            # Source prompt files
-│   ├── american-textbook.txt   # Style: American Textbook (Vector/Geometric)
-│   ├── american-comic.txt      # Style: American Comic (Bold/Action)
-│   └── japanese-anime.txt      # Style: Japanese Anime (Cel-shaded/Vibrant)
-├── examples/           # Generated image examples
-│   ├── demo-textbook.jpg
-│   ├── demo-comic.jpg
-│   └── demo-anime.jpg
-└── LICENSE             # License (e.g., MIT)
-
 
 How to Use
 
@@ -84,6 +72,7 @@ This project is released under the MIT License.
 
 自動化內容分析: 提示詞內建語言學家角色設定，能自動分析輸入單字的四大核心義項與語境。
 
+
 風格展示
 
 美式課本 (Textbook)
@@ -91,21 +80,6 @@ This project is released under the MIT License.
 美式漫畫 (Comic)
 
 日系動漫 (Anime)
-
-
-專案結構
-
-vocab-card-prompts/
-├── README.md           # 專案說明文件
-├── prompts/            # 提示詞原始檔案
-│   ├── american-textbook.txt   # 風格：美式課本 (向量/幾何)
-│   ├── american-comic.txt      # 風格：美式漫畫 (粗框/動作)
-│   └── japanese-anime.txt      # 風格：日系動漫 (賽璐珞/鮮豔)
-├── examples/           # 生成圖片範例
-│   ├── demo-textbook.jpg
-│   ├── demo-comic.jpg
-│   └── demo-anime.jpg
-└── LICENSE             # 授權條款 (如 MIT)
 
 
 如何使用
