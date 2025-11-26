@@ -1,4 +1,4 @@
-Vocab_Card_Prompts
+### Vocab_Card_Prompts
 
 <div align="center">
 A specialized collection of JSON prompt frameworks designed for AI image generation models to create 4-panel educational vocabulary cards.
@@ -20,7 +20,6 @@ Structured JSON Output: Generates valid JSON objects ready for integration with 
 
 Automated Content Analysis: The prompts instruct the LLM to act as a linguist, analyzing the top 4 distinct definitions of any input word.
 
-
 Style Gallery
 
 [American Textbook](prompts/american-textbook.txt) 
@@ -28,9 +27,6 @@ Style Gallery
 [American Comic](prompts/american-comicV2.txt)  
 
 [Japanese Anime](prompts/japanese-anime.txt) 
-
-
-Project Structure
 
 ### How to Use
 
@@ -72,17 +68,13 @@ This project is released under the [MIT License](LICENSE).
 
 自動化內容分析: 提示詞內建語言學家角色設定，能自動分析輸入單字的四大核心義項與語境。
 
-
 風格展示
-
-
 
 [美式課本 (Textbook)](prompts/american-textbook.txt) 
 
 [美式漫畫 (Comic)](prompts/american-comicV2.txt)  
 
 [日系動漫 (Anime)](prompts/japanese-anime.txt) 
-
 
 ### 如何使用
 
