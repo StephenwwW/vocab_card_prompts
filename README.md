@@ -75,11 +75,13 @@ This project is released under the [MIT License](LICENSE).
 
 風格展示
 
-美式課本 (Textbook)
 
-美式漫畫 (Comic)
 
-日系動漫 (Anime)[日系動漫 (Anime)](prompts/japanese-anime.txt) 
+[美式課本 (Textbook)](prompts/american-textbook.txt) 
+
+[美式漫畫 (Comic)](prompts/american-comic v2.txt) 
+
+[日系動漫 (Anime)](prompts/japanese-anime.txt) 
 
 
 ### 如何使用
