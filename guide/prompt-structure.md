@@ -170,9 +170,9 @@
 
 | 關鍵語法 (Syntax Keywords) | 原理 (Principle) | 教學意義 (Teaching Point) |
 | :--- | :--- | :--- |
-| **Infographic illustration** | **畫風定義** | 告訴 AI **不要**畫成照片、油畫或 3D 渲染，鎖定為「扁平、資訊導向」的風格。 |
-| **mirroring the exact layout structure** | **控制訊號 (Control Signal)** | 強迫模型讀取參考圖 (`Actor.jpg`) 的線條或風格，防止 AI 自作聰明亂改版型。 |
-| **[TARGET\_WORD\_UPPERCASE]** | **主題錨點** | 使用大寫鎖定核心概念，讓 AI 知道整張圖的「靈魂」是什麼。 |
+| **Infographic illustration** | 畫風定義 | 告訴 AI 不要畫成照片、油畫或 3D 渲染，鎖定為「扁平、資訊導向」的風格。 |
+| **mirroring the exact layout structure** | 控制訊號 (Control Signal) | 強迫模型讀取參考圖 (`Actor.jpg`) 的線條或風格，防止 AI 自作聰明亂改版型。 |
+| **[TARGET\_WORD\_UPPERCASE]** | 主題錨點 | 使用大寫鎖定核心概念，讓 AI 知道整張圖的「靈魂」是什麼。 |
 
 ### B. 文字渲染引擎 (The Text Engine)
 
@@ -180,11 +180,11 @@
 
 | 關鍵語法 (Syntax Keywords) | 原理 (Principle) | 教學意義 (Teaching Point) |
 | :--- | :--- | :--- |
-| **\*\* TEXT RENDERING PRIORITY (CRITICAL) \*\*** | **注意力強調** | 透過星號和大寫，在 Token 序列中增加最高權重，模擬高品質訓練資料的標註格式。 |
-| **STRICT TRADITIONAL CHINESE ONLY** | **拒絕模糊空間** | 明確指定「繁體中文」，並用雙語標註以最大化命中率。 |
-| **No Simplified characters** | **負面提示融入 (Negative Prompting)** | 由於 AI 訓練資料充斥簡體字，必須顯式禁止，防止機率性「滑向」簡體。 |
-| **Bold Modern Sans-Serif / Geometric** | **幾何指令** | **黑體/無襯線體**筆畫粗細一致，比起明體（Serif）更不易在運算中斷裂或模糊。 |
-| **RAZOR-SHARP, Vector graphic quality** | **對抗雜訊風格** | 這些是「風格關鍵詞」，用來對抗 JPG 壓縮雜訊，強迫邊緣無限清晰。 |
+| **\*\* TEXT RENDERING PRIORITY (CRITICAL) \*\*** | 注意力強調 | 透過星號和大寫，在 Token 序列中增加最高權重，模擬高品質訓練資料的標註格式。 |
+| **STRICT TRADITIONAL CHINESE ONLY** | 拒絕模糊空間 | 明確指定「繁體中文」，並用雙語標註以最大化命中率。 |
+| **No Simplified characters** | 負面提示融入 (Negative Prompting) | 由於 AI 訓練資料充斥簡體字，必須顯式禁止，防止機率性「滑向」簡體。 |
+| **Bold Modern Sans-Serif / Geometric** | 幾何指令 | 黑體/無襯線體筆畫粗細一致，比起明體（Serif）更不易在運算中斷裂或模糊。 |
+| **RAZOR-SHARP, Vector graphic quality** | 對抗雜訊風格 | 這些是「風格關鍵詞」，用來對抗 JPG 壓縮雜訊，強迫邊緣無限清晰。 |
 
 ### C. 區塊結構與邏輯 (Section Logic)
 
@@ -192,18 +192,19 @@
 
 | 關鍵語法 (Syntax Keywords) | 原理 (Principle) | 教學意義 (Teaching Point) |
 | :--- | :--- | :--- |
-| **HEADER SECTION / following Actor.jpg layout** | **重複強化 (Reinforcement)** | 在每個區塊重複提到參考圖，防止 AI 在生成過程中「遺忘」原始版型。 |
-| **Top Left / [COLOR\_1] Theme** | **空間與視覺區隔** | 明確的像素區域指引（左上、右下），並用**顏色主題**區隔每一格，避免文字混淆。 |
-| **Caption Body ... \\n ...** | **排版結構改變** | `\n` 是 **JSON 的換行符號**。這對 AI 來說意味著「排版結構改變」，能強制避免中英文擠在同一行，確保字體大小適中。 |
-| **[SHORT\_DEFINITION... UNDER\_12\_CHARS]** | **算力預算 (Compute Budget)** | 圖片像素有限。限制字數是為了確保**每個字能分到足夠的像素**，避免字體過小而模糊。 |
+| **HEADER SECTION / following Actor.jpg layout** | 重複強化 (Reinforcement) | 在每個區塊重複提到參考圖，防止 AI 在生成過程中「遺忘」原始版型。 |
+| **Top Left / [COLOR\_1] Theme** | 空間與視覺區隔 | 明確的像素區域指引（左上、右下），並用顏色主題區隔每一格，避免文字混淆。 |
+| **Caption Body ... \\n ...** | 排版結構改變 | `\n` 是 JSON 的換行符號。這對 AI 來說意味著「排版結構改變」，能強制避免中英文擠在同一行，確保字體大小適中。 |
+| **[SHORT\_DEFINITION... UNDER\_12\_CHARS]** | 算力預算 (Compute Budget) | 圖片像素有限。限制字數是為了確保每個字能分到足夠的像素，避免字體過小而模糊。 |
 
 ### D. 結尾檢查 (Final Output)
 
 | 關鍵語法 (Syntax Keywords) | 原理 (Principle) | 教學意義 (Teaching Point) |
 | :--- | :--- | :--- |
-| **FINAL CHECK** | **近時效應 (Recency Effect)** | NLP 模型對「最後輸入」的資訊印象最深。在結尾再次強調**可讀性 (Legibility)**，作為最後的品質把關。 |
+| **FINAL CHECK** | 近時效應 (Recency Effect) | NLP 模型對「最後輸入」的資訊印象最深。在結尾再次強調可讀性 (Legibility)，作為最後的品質把關。 |
 
 ---
+
 
 
 
