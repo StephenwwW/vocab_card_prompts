@@ -31,7 +31,15 @@ Style Gallery
 ***Pewview***
 | Wormhole View | Waterway View |
 | :---: | :---: |
-| <img src="examples/Wormhole.png" width="200"> | <img src="examples/Waterway.jpg" width="400"> |
+| <img src="examples/Wormhole.png" width="400"> | <img src="examples/Waterway.jpg" width="400"> |
+
+| Voltage View | Trade route View |
+| :---: | :---: |
+| <img src="examples/Voltage.png" width="400"> | <img src="examples/Trade route.jpg" width="400"> |
+
+| Ball View | Background View |
+| :---: | :---: |
+| <img src="examples/Ball.jpg" width="400"> | <img src="examples/Background.jpg" width="400"> |
 
 ### How to Use
 
