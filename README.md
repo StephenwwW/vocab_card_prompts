@@ -94,6 +94,10 @@ This project is released under the [MIT License](LICENSE).
 
 請將該圖片命名為 Actor.jpg 以匹配 Prompt 的預設設定；若您使用其他檔名，請務必同步修改 Prompt 內對應的參照名稱。
 
+### 語法教學
+
+[提示詞生成架構](prompts/japanese-anime.txt) 
+
 授權條款
 
 ### 本專案採用 [MIT License](LICENSE) 授權。
