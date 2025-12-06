@@ -28,7 +28,7 @@ Style Gallery
 
 [Japanese Anime](prompts/japanese-anime.txt) 
 
-***Pewview***
+***Preview***
 | Wormhole View | Waterway View |
 | :---: | :---: |
 | <img src="examples/Wormhole.png" width="400"> | <img src="examples/Waterway.jpg" width="400"> |
