@@ -151,10 +151,11 @@
 >
 > # JSON Template (Strictly fill this structure)
 > 
-> ```json
+```json
 {
   "prompt": "Infographic illustration, mirroring the exact layout structure and clear comic art style of the reference image Actor.jpg. The overall theme is '[TARGET_WORD_UPPERCASE]'.\n\n ** TEXT RENDERING PRIORITY (CRITICAL) **\n - LANGUAGE: STRICT TRADITIONAL CHINESE (繁體中文) ONLY. No Simplified characters.\n - FONT STYLE: Bold Modern Sans-Serif (e.g., Noto Sans TC or Heiti style). Geometric, uniform stroke width, block-style.\n - QUALITY: Text must be RAZOR-SHARP, high-contrast, vector graphic quality. ABSOLUTELY NO BLURRING, smudging, or artistic handwriting styles.\n - ENGLISH TEXT: English text in parentheses must be fully legible standard printed font.\n\n HEADER SECTION (Top center, following Actor.jpg layout):\n Large bold English title: '[TARGET_WORD_UPPERCASE]'\n Subtitle (Traditional Chinese, printed): '詞性: [PARTS_OF_SPEECH]'\n Overview (Traditional Chinese, printed): '含義概覽: [4_KEY_MEANINGS_IN_TC_SEPARATED_BY_COMMAS]'\n\n PANEL 1 (Top Left, [COLOR_1] Theme, following Actor.jpg layout):\n VISUALS: [VISUAL_DESCRIPTION_FOR_MEANING_1]\n TEXT CONTENT (Traditional Chinese + English Source):\n Panel Title: '1. [MEANING_TITLE_1] ([POS])'\n Caption Body: '解釋：[SHORT_DEFINITION_1_TC_UNDER_12_CHARS]。\\n語境：[EXAMPLE_SENTENCE_TC]\\n([EXAMPLE_SENTENCE_EN])'\n\n PANEL 2 (Top Right, [COLOR_2] Theme, following Actor.jpg layout):\n VISUALS: [VISUAL_DESCRIPTION_FOR_MEANING_2]\n TEXT CONTENT (Traditional Chinese + English Source):\n Panel Title: '2. [MEANING_TITLE_2] ([POS])'\n Caption Body: '解釋：[SHORT_DEFINITION_2_TC_UNDER_12_CHARS]。\\n語境：[EXAMPLE_SENTENCE_TC]\\n([EXAMPLE_SENTENCE_EN])'\n\n PANEL 3 (Bottom Left, [COLOR_3] Theme, following Actor.jpg layout):\n VISUALS: [VISUAL_DESCRIPTION_FOR_MEANING_3]\n TEXT CONTENT (Traditional Chinese + English Source):\n Panel Title: '3. [MEANING_TITLE_3] ([POS])'\n Caption Body: '解釋：[SHORT_DEFINITION_3_TC_UNDER_12_CHARS]。\\n語境：[EXAMPLE_SENTENCE_TC]\\n([EXAMPLE_SENTENCE_EN])'\n\n PANEL 4 (Bottom Right, [COLOR_4] Theme, following Actor.jpg layout):\n VISUALS: [VISUAL_DESCRIPTION_FOR_MEANING_4]\n TEXT CONTENT (Traditional Chinese + English Source):\n Panel Title: '4. [MEANING_TITLE_4] ([POS])'\n Caption Body: '解釋：[SHORT_DEFINITION_4_TC_UNDER_12_CHARS]。\\n語境：[EXAMPLE_SENTENCE_TC]\\n([EXAMPLE_SENTENCE_EN])'\n\n ---\n FINAL CHECK: Ensure perfect legibility of all Traditional Chinese text, matching the clean aesthetic of Actor.jpg."
 }
 > ```
 ---
+
 
