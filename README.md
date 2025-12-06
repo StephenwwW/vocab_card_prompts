@@ -59,6 +59,10 @@ Please name this file Actor.jpg to match the default prompt settings.
 
 If you use a different filename, ensure you update the reference name within the prompt accordingly.
 
+### Syntax Guide
+
+- [Prompt Structure Guide](guide/prompt-structure.md)
+
 ### License
 
 This project is released under the [MIT License](LICENSE).
