@@ -109,16 +109,50 @@ If you use a different filename, ensure you update the reference name within the
 > **重點：**
 > 
 > - 這裡建立了約束條件 (Constraint)。明確告知 AI 有一張外部參考圖（Reference Image），強迫 AI 在生成的 Prompt 中必須包含這張圖的設定。
-
-
-
-
-
-
-
-
-
-
+> 
+> ```text
+> # Critical Requirements
+> 1. **Reference Image**: You MUST explicitly reference "Actor.jpg" in the prompt to enforce the layout.
+> ```
+> **中文註解**：
+> - 參考圖片：你必須在提示詞中明確提到 "Actor.jpg"，以強制固定版面配置。
+>
+> **重點：**
+> 
+> - 使用大寫 MUST 加強語氣。這是為了確保風格統一，不會跑版。
+> 
+> ```text
+> 2. **Text Rendering**: You must enforce "STRICT TRADITIONAL CHINESE (繁體中文)" with high-contrast, razor-sharp clarity. No blurred text.
+> ```
+> **中文註解**：
+> - 文字渲染：你必須強制要求「嚴格繁體中文」，並具備高對比度與如剃刀般銳利的清晰度。不可有模糊文字。
+>
+> **重點：**
+> 
+> - 這是解決 AI 繪圖「字體模糊」與「簡繁混雜」的關鍵指令。使用 Razor-sharp (極其銳利) 這種形容詞，對繪圖模型來說比單純寫 "Clear" 更有效。
+> 
+> ```text
+> 3. **English Accuracy**: All English text in the prompt must be grammatically perfect.
+> ```
+> **中文註解**：
+> - 英文準確度：提示詞中的所有英文文本必須在語法上完美無缺。
+>
+> **重點：**
+> 
+> - 確保 AI 產出的英文教材內容是正確的。
+> 
+> ```text
+> 4. **Conciseness**:
+> - The Chinese "Definition" (解釋) must be **UNDER 12 characters**.
+> - The Visual Description must be simple and distinct.
+> ```
+> **中文註解**：
+> - 中文的「解釋」必須在 12 個字以內。維持簡潔，視覺描述必須簡單且區隔鮮明。
+>
+> **重點：**
+> 
+> - 這是一個物理限制。圖片空間有限，如果 AI 寫了一長串解釋，字體絕對會糊掉。限制字數是為了保證圖片的可讀性。
+> 
 ---
 
 ### License
