@@ -96,7 +96,7 @@ This project is released under the [MIT License](LICENSE).
 
 ### 語法教學
 
-[提示詞生成架構](prompts/japanese-anime.txt) 
+- [提示詞架構指南 / Prompt Structure Guide](guide/prompt-structure.md)
 
 授權條款
 
