@@ -41,6 +41,10 @@ Style Gallery
 | :---: | :---: |
 | <img src="examples/Ball.jpg" width="400"> | <img src="examples/Background.jpg" width="400"> |
 
+| 教王護国寺(東寺) View | 本多 忠勝 View |
+| :---: | :---: |
+| <img src="examples/八幡山 教王護国寺(東寺)(とうじきょうおうごこじ).jpg" width="400"> | <img src="examples/本多 忠勝(ほんだ ただかつ).jpg" width="400"> |
+
 ### How to Use
 
 Select a Style: Choose a text file from the prompts/ directory (e.g., prompts/japanese-anime.txt).
