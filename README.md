@@ -4,7 +4,6 @@
 A specialized collection of JSON prompt frameworks designed for AI image generation models to create 4-panel educational vocabulary cards.
 </div>
 
-
 [English](#english) | [中文](#中文)
 
 ## <a name="english"></a>English
@@ -28,6 +27,11 @@ Style Gallery
 [American Comic](prompts/american-comicV2.txt)  
 
 [Japanese Anime](prompts/japanese-anime.txt) 
+
+***Pewview***
+| Wormhole View | Waterway View |
+| :---: | :---: |
+| <img src="Wormhole.png" width="200"> | <img src="Waterway.jpg" width="400"> |
 
 ### How to Use
 
