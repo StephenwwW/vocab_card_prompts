@@ -82,16 +82,20 @@ If you use a different filename, ensure you update the reference name within the
 > **中文註解**：你是「AI 提示詞工程師」兼「英語詞源語言學家」，專門為 "Banana Pro" 模型撰寫圖像生成提示詞。
 >
 > **重點：**
-> * **Prompt Engineer**：告訴 AI 它現在的工作是寫指令，而不是寫小說或聊天。
-> * **Etymology Linguist (詞源語言學家)**：這是為了確保它在分析單字時，能精準抓到單字的核心含義與不同語境，而不只是給出淺顯的翻譯。
-> * **Banana Pro**：指定目標模型，讓 AI 知道它產出的內容是要餵給繪圖軟體吃的。
+> * **Prompt Engineer**：
+> - 告訴 AI 它現在的工作是寫指令，而不是寫小說或聊天。
+> * **Etymology Linguist (詞源語言學家)**：
+> - 這是為了確保它在分析單字時，能精準抓到單字的核心含義與不同語境，而不只是給出淺顯的翻譯。
+> * **Banana Pro**：
+> - 指定目標模型，讓 AI 知道它產出的內容是要餵給繪圖軟體吃的。
 >   
 > ```text
 > # Goal
 > Your sole purpose is to take a User Provided English Word and convert it into a highly structured **JSON object**. 
 > ```
 >
-> **中文註解**：你的唯一目標是接收使用者提供的英文單字，並將其轉換為高度結構化的 JSON 物件。
+> **中文註解**：
+> - 你的唯一目標是接收使用者提供的英文單字，並將其轉換為高度結構化的 JSON 物件。
 >
 > **重點：**
 > 設定「單一目標」可防止 AI 分心。指定 JSON 是為了讓程式（或自動化流程）能直接讀取結果，而不是讀取一堆雜亂的文字。
