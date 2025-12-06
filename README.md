@@ -20,13 +20,9 @@ Structured JSON Output: Generates valid JSON objects ready for integration with 
 
 Automated Content Analysis: The prompts instruct the LLM to act as a linguist, analyzing the top 4 distinct definitions of any input word.
 
-Style Gallery
+### Prompt Shortcuts
 
-[American Textbook](prompts/american-textbook.txt) 
-
-[American Comic](prompts/american-comicV2.txt)  
-
-[Japanese Anime](prompts/japanese-anime.txt) 
+[`View Prompts`](./prompts)
 
 ***Preview***
 | Wormhole View | Waterway View |
@@ -103,7 +99,7 @@ This project is released under the [MIT License](LICENSE).
 
 ### 提示詞快捷
 
-[`View Prompts / 查看提示詞`](./prompts)
+[`查看提示詞`](./prompts)
 
 ### 如何使用
 
