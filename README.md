@@ -101,13 +101,9 @@ This project is released under the [MIT License](LICENSE).
 
 自動化內容分析: 提示詞內建語言學家角色設定，能自動分析輸入單字的四大核心義項與語境。
 
-風格展示
+### 提示詞快捷
 
-[美式課本 (Textbook)](prompts/american-textbook.txt) 
-
-[美式漫畫 (Comic)](prompts/american-comicV2.txt)  
-
-[日系動漫 (Anime)](prompts/japanese-anime.txt) 
+[`View Prompts / 查看提示詞`](./prompts)
 
 ### 如何使用
 
