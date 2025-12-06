@@ -31,7 +31,7 @@ Style Gallery
 ***Pewview***
 | Wormhole View | Waterway View |
 | :---: | :---: |
-| <img src="Wormhole.png" width="200"> | <img src="Waterway.jpg" width="400"> |
+| <img src="examples/Wormhole.png" width="200"> | <img src="examples/Waterway.jpg" width="400"> |
 
 ### How to Use
 
