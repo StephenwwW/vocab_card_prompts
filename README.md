@@ -63,6 +63,13 @@ If you use a different filename, ensure you update the reference name within the
 
 - [Prompt Structure Guide](guide/prompt-structure.md)
 
+### Legal Disclaimer 
+
+- The content provided in this project is strictly for the purpose of demonstrating prompt engineering techniques.
+- We do not encourage or endorse the unauthorized use of copyrighted or licensed materials.
+- Users are solely responsible for verifying the usage rights of any images or content generated or utilized via this project.
+- The creator of this project disclaims all liability for any damages or legal consequences arising from the user's violation of copyright laws.
+
 ### License
 
 This project is released under the [MIT License](LICENSE).
@@ -113,6 +120,11 @@ This project is released under the [MIT License](LICENSE).
 ### 語法教學
 
 - [提示詞架構指南 / Prompt Structure Guide](guide/prompt-structure.md)
+
+### 法律免責聲明 
+
+- 本專案所提供之內容嚴格限制於展示 Prompt 工程技術。我們不鼓勵也不支持任何未經授權使用受版權或授權保護素材之行為。
+- 使用者須自行確認並承擔透過本專案生成或使用之任何圖片與內容的使用權利。 對於使用者因違反版權法規而導致的任何損害或法律後果，本專案開發者不承擔任何責任。
 
 授權條款
 
