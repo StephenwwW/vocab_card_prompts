@@ -45,6 +45,10 @@ Style Gallery
 | :---: | :---: |
 | <img src="examples/八幡山 教王護国寺(東寺)(とうじきょうおうごこじ).jpg" width="400"> | <img src="examples/本多 忠勝(ほんだ ただかつ).jpg" width="400"> |
 
+| Choose View | 犬山城 View |
+| :---: | :---: |
+| <img src="examples/Choose.png" width="400"> | <img src="examples/犬山城(いぬやまじょう).jpg" width="400"> |
+
 ### How to Use
 
 Select a Style: Choose a text file from the prompts/ directory (e.g., prompts/japanese-anime.txt).
