@@ -55,19 +55,19 @@ If you use a different filename, ensure you update the reference name within the
 > ### 提示詞架構教學
 >
 > **第一部分：角色設定 (Role)**
-> 這部分的目的是「定錨 (Anchoring)」。我們必須先設定 AI 的大腦背景知識，讓它知道該調用哪些專業資料。
+> - 這部分的目的是「定錨 (Anchoring)」。我們必須先設定 AI 的大腦背景知識，讓它知道該調用哪些專業資料。
 >
 > **第二部分：目標設定 (Goal)**
-> 這部分定義了任務的輸入 (Input) 與 輸出 (Output) 格式。
+> - 這部分定義了任務的輸入 (Input) 與 輸出 (Output) 格式。
 >
 > **第三部分：關鍵要求 (Critical Requirements)**
-> 這部分是「安全護欄 (Guardrails)」，用來防止常見的錯誤（如繁體字寫成簡體、圖片模糊、語法錯誤）。
+> - 這部分是「安全護欄 (Guardrails)」，用來防止常見的錯誤（如繁體字寫成簡體、圖片模糊、語法錯誤）。
 >
 > **第四部分：互動步驟 (Interaction Steps)**
-> 這部分是「工作流 (Workflow)」，告訴 AI 處理事情的順序。
+> - 這部分是「工作流 (Workflow)」，告訴 AI 處理事情的順序。
 >
 > **第五部分：JSON 模板 (JSON Template)**
-> 這部分是「填空題 (Fill-in-the-blanks)」。這是最核心的部分，AI 會將它分析的內容填入對應的括號中。
+> - 這部分是「填空題 (Fill-in-the-blanks)」。這是最核心的部分，AI 會將它分析的內容填入對應的括號中。
 
 ---
 
