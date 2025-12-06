@@ -19,7 +19,6 @@
 > - 這部分是「填空題 (Fill-in-the-blanks)」。這是最核心的部分，AI 會將它分析的內容填入對應的括號中。
 
 ---
-
 > [!TIP]
 > **Role 設定範例**
 >
@@ -37,7 +36,11 @@
 > - 這是為了確保它在分析單字時，能精準抓到單字的核心含義與不同語境，而不只是給出淺顯的翻譯。
 > * **Banana Pro**：
 > - 指定目標模型，讓 AI 知道它產出的內容是要餵給繪圖軟體吃的。
->   
+>
+---
+
+---
+
 > ```text
 > # Goal
 > Your sole purpose is to take a User Provided English Word and convert it into a highly structured **JSON object**. 
@@ -103,6 +106,7 @@
 > - 這是一個物理限制。圖片空間有限，如果 AI 寫了一長串解釋，字體絕對會糊掉。限制字數是為了保證圖片的可讀性。
 > 
 ---
+
 
 
 
