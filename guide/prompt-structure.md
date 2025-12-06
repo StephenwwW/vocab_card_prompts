@@ -17,7 +17,14 @@
 >
 > **第五部分：JSON 模板 (JSON Template)**
 > - 這部分是「填空題 (Fill-in-the-blanks)」。這是最核心的部分，AI 會將它分析的內容填入對應的括號中。
-
+>
+> **總結建議**
+> - 使用這份 Prompt 教學時，可以這樣總結：
+> - AI 是瞎子，也是畫家：它看不懂什麼是「美」，你必須用幾何詞彙（Sharp, Block-style, Geometric）來指導它。
+> - 參考圖是骨架：不斷提到 Actor.jpg 就像是不斷提醒畫家「看著模特兒畫」，不要憑空想像。
+> - 字數就是解析度：在圖片裡寫字，字數越少，解析度越高。所以我們嚴格限制中文要在 12 字以內，這是為了清晰度做出的妥協。
+> - JSON 只是載體：我們用 JSON 格式，只是為了讓電腦方便讀取。真正重要的是引號 " " 裡面的那些英文指令，那才是給畫圖 AI 看的「咒語」。
+>
 ---
 > [!TIP]
 > **Role 設定範例**
@@ -152,8 +159,12 @@
 ```Json
 {
   "prompt": "Infographic illustration, mirroring the exact layout structure and clear comic art style of the reference image Actor.jpg. The overall theme is '[TARGET_WORD_UPPERCASE]'.\n\n ** TEXT RENDERING PRIORITY (CRITICAL) **\n - LANGUAGE: STRICT TRADITIONAL CHINESE (繁體中文) ONLY. No Simplified characters.\n - FONT STYLE: Bold Modern Sans-Serif (e.g., Noto Sans TC or Heiti style). Geometric, uniform stroke width, block-style.\n - QUALITY: Text must be RAZOR-SHARP, high-contrast, vector graphic quality. ABSOLUTELY NO BLURRING, smudging, or artistic handwriting styles.\n - ENGLISH TEXT: English text in parentheses must be fully legible standard printed font.\n\n HEADER SECTION (Top center, following Actor.jpg layout):\n Large bold English title: '[TARGET_WORD_UPPERCASE]'\n Subtitle (Traditional Chinese, printed): '詞性: [PARTS_OF_SPEECH]'\n Overview (Traditional Chinese, printed): '含義概覽: [4_KEY_MEANINGS_IN_TC_SEPARATED_BY_COMMAS]'\n\n PANEL 1 (Top Left, [COLOR_1] Theme, following Actor.jpg layout):\n VISUALS: [VISUAL_DESCRIPTION_FOR_MEANING_1]\n TEXT CONTENT (Traditional Chinese + English Source):\n Panel Title: '1. [MEANING_TITLE_1] ([POS])'\n Caption Body: '解釋：[SHORT_DEFINITION_1_TC_UNDER_12_CHARS]。\\n語境：[EXAMPLE_SENTENCE_TC]\\n([EXAMPLE_SENTENCE_EN])'\n\n PANEL 2 (Top Right, [COLOR_2] Theme, following Actor.jpg layout):\n VISUALS: [VISUAL_DESCRIPTION_FOR_MEANING_2]\n TEXT CONTENT (Traditional Chinese + English Source):\n Panel Title: '2. [MEANING_TITLE_2] ([POS])'\n Caption Body: '解釋：[SHORT_DEFINITION_2_TC_UNDER_12_CHARS]。\\n語境：[EXAMPLE_SENTENCE_TC]\\n([EXAMPLE_SENTENCE_EN])'\n\n PANEL 3 (Bottom Left, [COLOR_3] Theme, following Actor.jpg layout):\n VISUALS: [VISUAL_DESCRIPTION_FOR_MEANING_3]\n TEXT CONTENT (Traditional Chinese + English Source):\n Panel Title: '3. [MEANING_TITLE_3] ([POS])'\n Caption Body: '解釋：[SHORT_DEFINITION_3_TC_UNDER_12_CHARS]。\\n語境：[EXAMPLE_SENTENCE_TC]\\n([EXAMPLE_SENTENCE_EN])'\n\n PANEL 4 (Bottom Right, [COLOR_4] Theme, following Actor.jpg layout):\n VISUALS: [VISUAL_DESCRIPTION_FOR_MEANING_4]\n TEXT CONTENT (Traditional Chinese + English Source):\n Panel Title: '4. [MEANING_TITLE_4] ([POS])'\n Caption Body: '解釋：[SHORT_DEFINITION_4_TC_UNDER_12_CHARS]。\\n語境：[EXAMPLE_SENTENCE_TC]\\n([EXAMPLE_SENTENCE_EN])'\n\n ---\n FINAL CHECK: Ensure perfect legibility of all Traditional Chinese text, matching the clean aesthetic of Actor.jpg."
+}
 ```
+>
+>
 ---
+
 
 
 
