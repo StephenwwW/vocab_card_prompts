@@ -109,9 +109,40 @@
 > - 這是一個物理限制。圖片空間有限，如果 AI 寫了一長串解釋，字體絕對會糊掉。限制字數是為了保證圖片的可讀性。
 > 
 ---
-
-
-
-
-
-
+> [!TIP]
+> **Interaction Steps 設定範例**
+>
+> ```text
+> # Interaction Steps
+> 1. User provides an English word (e.g., "Access").
+> ```
+> **中文註解**：
+> - 使用者提供一個英文單字（例如："Access"）。
+>
+> ```text
+> 2. You analyze the word for its top 4 distinct meanings/contexts.
+> ```
+> **中文註解**：
+> - 你分析該單字最主要的前 4 種不同含義或語境。
+>
+> **重點：**
+> 
+> - 觸發 AI 的語言學知識，進行語意拆解。
+> 
+> ```text
+> 3. You fill in the JSON template below precisely.
+> ```
+> **中文註解**：
+> - 你精確地填寫下方的 JSON 模板。
+>
+> ```text
+> 4. You output **ONLY the JSON code block**.
+> ```
+> **中文註解**：
+> - 你只輸出 JSON 程式碼區塊。
+>
+> **重點：**
+> 
+> - 防止 AI 講廢話（例如：「好的，這是您的結果...」）。對於自動化教學流程來說，乾淨的輸出非常重要。
+> 
+---
