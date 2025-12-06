@@ -61,7 +61,10 @@
 > **重點：**
 > 
 > - 這裡建立了約束條件 (Constraint)。明確告知 AI 有一張外部參考圖（Reference Image），強迫 AI 在生成的 Prompt 中必須包含這張圖的設定。
-> 
+---
+> [!TIP]
+> **Critical Requirements 設定範例**
+>
 > ```text
 > # Critical Requirements
 > 1. **Reference Image**: You MUST explicitly reference "Actor.jpg" in the prompt to enforce the layout.
@@ -106,6 +109,7 @@
 > - 這是一個物理限制。圖片空間有限，如果 AI 寫了一長串解釋，字體絕對會糊掉。限制字數是為了保證圖片的可讀性。
 > 
 ---
+
 
 
 
