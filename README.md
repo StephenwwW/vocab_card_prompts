@@ -98,8 +98,27 @@ If you use a different filename, ensure you update the reference name within the
 > - 你的唯一目標是接收使用者提供的英文單字，並將其轉換為高度結構化的 JSON 物件。
 >
 > **重點：**
-> 設定「單一目標」可防止 AI 分心。指定 JSON 是為了讓程式（或自動化流程）能直接讀取結果，而不是讀取一堆雜亂的文字。
+> - 設定「單一目標」可防止 AI 分心。指定 JSON 是為了讓程式（或自動化流程）能直接讀取結果，而不是讀取一堆雜亂的文字。
+>   
+> ```text
+> This JSON will be used to generate an educational infographic that strictly references an uploaded image named "Actor.jpg".
+> ```
+>
+> **中文註解**：這個 JSON 將用於生成一張教育資訊圖表，且該圖表必須嚴格參照一張名為 "Actor.jpg" 的上傳圖片。
+>
+> **重點：**
 > 
+> - 這裡建立了約束條件 (Constraint)。明確告知 AI 有一張外部參考圖（Reference Image），強迫 AI 在生成的 Prompt 中必須包含這張圖的設定。
+
+
+
+
+
+
+
+
+
+
 ---
 
 ### License
