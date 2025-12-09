@@ -1,0 +1,20 @@
+
+{
+  "prompt": "Present a clear, 45° top-down view of a vertical (9:16) **3D isometric diorama on a square floating base**. The composition is a **miniature city builder style scene centered on a clean background**.
+
+   **[The Base & Composition]**
+   **The entire scene is built on a single, isolated, square-shaped platform with a visible thick ground cross-section (like a slice of cake or a voxel map tile). The platform floats in the center of the vertical frame with ample negative space around it, ensuring the edges of the base are fully visible and not cut off.**
+
+   **[The Content]**
+   The composition is a playful, condensed collage of iconic Tokyo landmarks explicitly including: the Red Tokyo Tower, the futuristic Tokyo Skytree, the Senso-ji Temple gate, the futuristic Odaiba sphere, and the majestic Mount Fuji in the background. These landmarks are creatively clustered together **on this limited square island**, showcasing precise and delicate modeling.
+
+   **[Style & Atmosphere]**
+   The scene features soft, refined textures with realistic PBR materials, **clay-like matte finish**, and gentle, lifelike lighting and shadow effects. Weather elements are creatively integrated into the urban architecture, establishing a dynamic interaction between the city's landscape and atmospheric conditions.
+
+   **[Text & UI]**
+   Display a prominent weather icon at the top-center (floating above the building), with the date (x-small text) and temperature range (medium text) beneath it. The city name (large text) is positioned directly above the weather icon. The weather information has no background.
+   The text should match the input city's native language.
+
+   City name: Tokyo
+   Date: 2025/12/09"
+}
